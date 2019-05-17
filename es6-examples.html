@@ -13,11 +13,11 @@
       <p>As I begin to grow a basic understanding of the ES6 syntax, it helps me to see the code in action.</p>
       <p>I'll give myself a quick refresher about scope.</p>
       <pre><code>
-        // As I open the JavaScript console, I'm entering these lines of code :
+        <!-- As I open the JavaScript console, I'm entering these lines of code : -->
 
         var global = 'Hello, I am a global variable';
 
-        // Now I'm writing a function to create some scope.
+         <!-- Now I'm writing a function to create some scope. -->
 
         function makeSomeScope() {
           var local = 'Hey there, I am a local variable.';
@@ -26,15 +26,15 @@
         }
         makeSomeScope();
 
-        // In the JavaScript console I'm inspecting the value of the variable 'global'. Now that I think of it, I'm reminded that the console is globally scoped.
+         <!-- In the JavaScript console I'm inspecting the value of the variable 'global'. Now that I think of it, I'm reminded that the console is globally scoped. -->
         
-        // The variable 'global' is defined and works fine.
+        <!-- The variable 'global' is defined and works fine. -->
 
-        // As I inspect the value of the variable 'local' I realize that it doesn't work and says it isn't defined because it is declared inside the makeSomeScope() function.
+        <!-- As I inspect the value of the variable 'local' I realize that it doesn't work and says it isn't defined because it is declared inside the makeSomeScope() function. -->
 
-        // For the purposes of global and local scope in regards to functions, 'let' and 'const' work exactly the same. Both variables that were used above in my example could have been declared with 'let' or 'const' and nothing would've changed.
+        <!-- For the purposes of global and local scope in regards to functions, 'let' and 'const' work exactly the same. Both variables that were used above in my example could have been declared with 'let' or 'const' and nothing would've changed. -->
 
-        // Now, to understand how 'let' and 'const' are different - first it's important to note that they are both blocked scoped, meaning any code block (not just functions) creates scope for variables declared with the variables 'let' and 'const'.
+        <!-- Now, to understand how 'let' and 'const' are different - first it's important to note that they are both blocked scoped, meaning any code block (not just functions) creates scope for variables declared with the variables 'let' and 'const'. -->
 
         const anotherGlobalVariable = true;
 
